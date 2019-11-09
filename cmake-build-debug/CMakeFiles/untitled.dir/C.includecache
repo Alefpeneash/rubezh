@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/a/CLionProjects/untitled/cmake-build-debug/RoughNode.c
+pthread.h
+-
+
+/home/a/CLionProjects/untitled/main.c
+stdio.h
+-
+cmake-build-debug/RoughNode.c
+/home/a/CLionProjects/untitled/cmake-build-debug/RoughNode.c
+
